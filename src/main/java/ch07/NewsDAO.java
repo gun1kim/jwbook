@@ -15,7 +15,7 @@ public class NewsDAO {
         try {
             Class.forName(JDBC_DRIVER);
             System.out.println("연결하는중...");
-            conn = DriverManager.getConnection(JDBC_URL, "root", "1111");
+            conn = DriverManager.getConnection(JDBC_URL, "root", "1234");
 
         } catch (Exception e) {
             e.printStackTrace();
